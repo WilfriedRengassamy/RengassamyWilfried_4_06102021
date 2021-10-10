@@ -1,28 +1,34 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+
+    <meta name="description" content="Remplissez ce formulaire afin de contacter La chouette agence c'est une équipe 
+	de web designers dynamiques, créatifs et efficaces pour tous vos projets de conception, optimisation et/ou modernisation 
+	de site web">
+	<meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="canonical" href="https://https://wilfriedrengassamy.github.io/WilfriedRengassamy_4_06102021/contact-webdesign-lyon.html">
+
+	<title>Formulaire de contact - La chouette agence - studio de web design à Lyon</title>
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
 
     <!-- Open Graph Facebook & LinkedIn -->
-	<meta property="og:title" content="La chouette agence - studio de web design à Lyon" />
-	<meta property="og:url" content="https://https://wilfriedrengassamy.github.io/WilfriedRengassamy_4_06102021/index.html" />
+	<meta property="og:title" content="Formulaire de contact - La chouette agence - studio de web design à Lyon" />
+	<meta property="og:url" content="https://https://wilfriedrengassamy.github.io/WilfriedRengassamy_4_06102021/contact-webdesign-lyon.html" />
 	<meta property="og:image" content="img/opengraph/sample.png" />
 	<meta property="og:description" content="La chouette agence, un studio de web design située à Lyon spécialisée dans la conception et l'évolution de votre site web" />
 	<meta property="og:site_name" content="La chouette agence" />
@@ -32,21 +38,22 @@
 	<!-- Card meta Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@lachouetteagence">
-	<meta name="twitter:title" content="La chouette agence - studio de web design à Lyon" />
+	<meta name="twitter:title" content="Formulaire de contact - La chouette agence - studio de web design à Lyon" />
 	<meta name="twitter:description" content="La chouette agence, un studio de web design située à Lyon spécialisée dans la conception et l'évolution de votre site web" />
 
 	<!-- Epingle Pinterest -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="La chouette agence - studio de web design à Lyon" />
+	<meta property="og:title" content="Formulaire de contact - La chouette agence - studio de web design à Lyon" />
 	<meta property="og:description" content="La chouette agence, un studio de web design située à Lyon spécialisée dans la conception et l'évolution de votre site web" />
-	<meta property="og:url" content="https://https://wilfriedrengassamy.github.io/WilfriedRengassamy_4_06102021/index.html" />
+	<meta property="og:url" content="https://https://wilfriedrengassamy.github.io/WilfriedRengassamy_4_06102021/contact-webdesign-lyon.html" />
 	<meta property="og:site_name" content="La chouette agence" />
+
 
 <!-- Analytics -->
  
-<!-- Analytics END -->
-    
+<!-- Analytics END -->  
 </head>
+
 <body>
 	<!-- main Principal conteneur -->
 	<main class="page-container">
@@ -102,26 +109,27 @@
 								<label>
 									Nom
 								</label>
-								<input id="name" class="form-control" required />
+								<input id="name" class="form-control" title="veuillez entrer votre nom complet" required />
 							</div>
 							<div class="form-group">
 								<label>
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input id="email" class="form-control" type="email" title="veuillez renseigner votre adresse email" required />
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input class="form-control" title="Comment nous avez-vous découvert ?" required id="input_504" />
 							</div>
 							<div class="form-group">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									<textarea id="message" class="form-control" rows="4" cols="50" title="Expliquez-nous en détail votre projet" required></textarea>
+								</label>
 							</div> 
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" title="Envoyer le formulaire" type="submit">
 								Envoyer
 							</button>
 						</form>
@@ -142,39 +150,40 @@
 
 
 		<!-- Footer - bloc-8 -->
-		<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
 						<p class="text-center white">
-							La chouette agence - Agence web basée à Lyon.<br>
+							La chouette agence - studio de web design à Lyon.<br>
 						</p>
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="contact-webdesign-lyon.html"><span class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="contact-webdesign-lyon.html"><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="contact-webdesign-lyon.html"><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="contact-webdesign-lyon.html"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 		<!-- Footer - bloc-8 END -->
 
 	</main>
