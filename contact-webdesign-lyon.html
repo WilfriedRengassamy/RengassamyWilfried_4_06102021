@@ -86,10 +86,10 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="text-center hero-bloc-text tc-white">
+						<h1 class="text-center hero-bloc-text contrast_dark">
 							Parlons web design !
 						</h1>
-						<p class="text-center mg-lg tc-white tight-width-whitespace">
+						<p class="text-center mg-lg contrast_dark tight-width-whitespace">
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 						</p>
@@ -104,29 +104,29 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1" novalidate success-msg="Votre message a bien été envoyé." fail-msg="Désolé, il semble que notre serveur e-mail ne réponde pas. Veuillez nous excuser pour la gêne occasionnnée !">
 							<div class="form-group">
 								<label>
 									Nom
 								</label>
-								<input id="name" class="form-control" title="veuillez entrer votre nom complet" required tabindex="3" />
+								<input id="name" class="form-control" title="veuillez entrer votre nom complet" placeholder="veuillez entrer votre nom complet" required tabindex="3" />
 							</div>
 							<div class="form-group">
 								<label>
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" title="veuillez renseigner votre adresse email" required tabindex="4" />
+								<input id="email" class="form-control" type="email" title="veuillez renseigner votre adresse email" placeholder="veuillez renseigner votre adresse email" required tabindex="4" />
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" title="Comment nous avez-vous découvert ?" required id="input_504" tabindex="5" />
+								<input class="form-control" title="Comment nous avez-vous découvert ?" placeholder="Comment nous avez-vous découvert ?" required id="input_504" tabindex="5" />
 							</div>
 							<div class="form-group">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									<textarea id="message" class="form-control" rows="4" cols="50" title="Expliquez-nous en détail votre projet" required tabindex="6"></textarea>
+									<textarea id="message" class="form-control" rows="4" cols="50" title="Expliquez-nous en détail votre projet" placeholder="Expliquez-nous en détail votre projet" required tabindex="6"></textarea>
 								</label>
 							</div> 
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" title="Envoyer le formulaire" type="submit" tabindex="7">
@@ -135,8 +135,10 @@
 						</form>
 					</div>
 					<div class="col-sm-6">
-						<p>
-							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+						<p id="contact-own">
+							contact@lachouetteagence.com<br>
+							2 place Sathonay 69001 Lyon<br>
+							Ouvert de 9h à 18h, du lundi au vendredi
 						</p>
 					</div>
 				</div>
