@@ -660,10 +660,23 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color: #333333!important;
 }
 
 .hero-bloc-text-sub {
     font-size: 36px;
+}
+
+.access-bcg_tangerine {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #F3976C;
+}
+
+.access-bcg_smbr {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:rgba(51, 51, 51, 0.7);
 }
 
 .statement-bloc-text {
@@ -682,10 +695,30 @@ p {
 
 .text-img {
     font-family: 'helvetica';
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
+.text-presentation {
+    font-family: 'helvetica';
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+}
+
+.text-intro {
+    color: #575757;
+}
+
+.contrast {
+    color: #FFFFFF!important;
+}
+ 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -759,7 +792,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(51, 51, 51, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -786,6 +819,17 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
+    color: #FFFFFF!important;
+}
+
+.btn-smbr_tangerine {
+    background-color: #333333;
+    color: #F3976C!important;
+}
+
+.btn-smbr_tangerine:hover {
+    /*background-color: lighten (#F3976C, 50%);*/
+    background-color: #575757;
     color: #FFFFFF!important;
 }
 
@@ -828,7 +872,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
