@@ -709,6 +709,10 @@ p {
     font-size: 22px;
 }
 
+.text-img_strong {
+    font-size: 18px;
+}
+
 .text-presentation {
     font-family: 'helvetica';
     font-size: 18px;
@@ -731,6 +735,10 @@ strong {
 
 .contrast_dark {
     color: #333!important;
+}
+
+.contrast_dark_bold {
+    font-weight: bold;
 }
  
 .tight-width-whitespace {
