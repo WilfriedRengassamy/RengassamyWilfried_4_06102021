@@ -61,6 +61,10 @@ a:hover {
     margin: auto;
 }
 
+#quote_author {
+    color: #000000;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
